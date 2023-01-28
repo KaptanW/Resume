@@ -2,7 +2,6 @@
 {
     background-color: #FBF1D3;
    
-   
 }
 
 .nav-link
@@ -40,16 +39,15 @@ body
 
 .container-fluid
 {
-    padding: 2% 5%;
+    padding: 0% 10%;
 }
-
 
 .personalinf
 {
     text-align: center;
-    padding: 15% 15%;
+    padding: 10% 15%;
     background-color: #393E46;
-    height: 90vh;
+    height: 100vh;
     background-image:url(stacked-peaks-haikei.svg);
     background-size:cover;
 }
@@ -100,10 +98,25 @@ h1
     text-align: left;
 }
 
+.okullar
+{
+    text-align: left;
+    margin: auto;
+    
+}
+
+.listokul{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
 .skills
 {
     text-align: center;
-    padding: 5% 15%;
+    padding: 5% 15% 10%;
     padding-bottom: 15;
 
 }
@@ -112,6 +125,7 @@ h2
 {
     text-align: left;
     padding-top: 3%;
+    font-weight: bold;
 }
 
 .CSharp
@@ -133,10 +147,11 @@ h2
 {
     color: white;
     text-align: center;
-    padding: 1% 15%;
+    padding: 20px 15%;
     background-color: #393E46;
     width: 100%;
     height: 100px;
+
 }
 
 .contactor
@@ -162,4 +177,16 @@ h2
 {
     margin-top: 15%;
     margin-bottom: 15%;
+}
+
+.header{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.isim
+{
+    font-weight: bold;
 }
