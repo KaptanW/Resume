@@ -1,6 +1,6 @@
 #navigationn
 {
-    background-color: rgb(33, 37, 41);;
+    background-color: #212529;
    
 }
 
@@ -32,7 +32,7 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(33, 37, 41);;
+    background-color: #212529;
 }
 
 .navbar-toggler
@@ -53,8 +53,9 @@ body
     padding: 10% 15%;
     background-color: #393E46;
     height: 100vh;
-    background-image:url(stacked-peaks-haikei.svg);
-    background-size:cover;
+    background-image:url(aa.svg);
+    background-size: cover;
+    background-position: 60%;
 }
 
 h1
@@ -156,7 +157,7 @@ h2
     color: white;
     text-align: center;
     padding: 20px 15%;
-    background-color: rgb(33, 37, 41);;
+    background-color: #212529;
     width: 100%;
     height: 100px;
 
