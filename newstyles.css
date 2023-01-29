@@ -4,6 +4,11 @@
    
 }
 
+.trans
+{
+    opacity: 95%;
+}
+
 .nav-link
 {
     color: rgb(255, 255, 255);
@@ -27,7 +32,7 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
-    background-color: #233c43;
+    background-color: #393E46;
 }
 
 .navbar-toggler
@@ -82,12 +87,14 @@ h1
 {
     text-align: center;
     padding: 5% 15%;
+    height: 100vh;
 }
 
 .icon
 {
  width: 50%;
  margin: auto;
+ margin-top: 20%;
  padding-bottom: 10%;
 }
 
@@ -116,8 +123,9 @@ h1
 .skills
 {
     text-align: center;
-    padding: 5% 15% 10%;
+    padding: 0% 15% 0%;
     padding-bottom: 15;
+    height: 100vh;
 
 }
 
@@ -184,9 +192,41 @@ h2
     text-align: center;
     font-weight: bold;
     padding-bottom: 2%;
+    color: #393E46;
 }
 
 .isim
 {
     font-weight: bold;
 }
+
+.shine {
+    height: 20px;
+    width: 60%;
+    background-image: radial-gradient(
+      farthest-side at 50% -50%,
+      hsla(0, 0%, 0%, 0.775),
+      hsla(0, 0%, 0%, 0));
+    position: relative; 
+  }
+
+.shine::before {
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(
+      90deg,
+      hsla(0, 0%, 0%, 0),
+      hsla(0, 0%, 0%, 0.945) 80%,
+      hsla(0, 0%, 0%, 0));
+  }
+
+  hr {
+    border: 0;
+    margin: 1.35em auto;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+  }
